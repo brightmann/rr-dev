@@ -48,6 +48,10 @@ exports.generateRssFeed = function () {
 
   for (const filePath of files) {
     const id = path.basename(filePath);
+    // Paginated listing pages (src/content/blog/page/N.md) are not posts.
+    if (filePath.includes(`${path.sep}page${path.sep}`)) {
+      continue;
+    }
     if (id !== 'index.md') {
       const content = fs.readFileSync(filePath, 'utf-8');
       const {data} = matter(content);
