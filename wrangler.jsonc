@@ -1,0 +1,1 @@
+{"$schema":"https://developers.cloudflare.com/workers/wrangler/configuration-schema.json","assets":{"binding":"ASSETS","directory":"./.open-next/assets"},"compatibility_date":"2026-11-01","compatibility_flags":["nodejs_compat"],"main":".open-next/worker.js","name":"rr-dev"}
