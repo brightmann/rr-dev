@@ -11,6 +11,11 @@ You can also follow the [@react.dev](https://bsky.app/profile/react.dev) account
 </Intro>
 
 <div className="sm:-mx-5 flex flex-col gap-5 mt-12">
+<BlogCard title="测试" date="November 06, 2026" url="/blog/2026/11/06/test">
+
+这是一篇文章
+
+</BlogCard>
 
 <BlogCard title="稀奇古怪的中国经济" date="August 01, 2026" url="/blog/2026/08/01/ce">
 
